@@ -10,6 +10,7 @@ import { AiOutlineStar } from 'react-icons/ai'
 import { BsBox } from 'react-icons/bs'
 import { LiaPaintRollerSolid } from 'react-icons/lia'
 import InfoProduct from '../components/product/InfoProduct'
+import Price from '../components/product/Price'
 
 export default function Product() {
   return (
@@ -159,6 +160,9 @@ export default function Product() {
               </Stack>
             </Stack>
           </Stack>
+        </Stack>
+        <Stack gap={2} width="25%">
+          <Price />
         </Stack>
       </Stack>
     </Stack>
