@@ -1,7 +1,8 @@
 import React from 'react'
-import { Stack, Typography } from '@mui/material'
+import { Chip, Stack, Typography } from '@mui/material'
 import Header from '../components/layout/Header'
 import ImageGallery from '../components/product/ImageGallery'
+import Stamps from '../components/product/Stamps'
 
 export default function Product() {
   return (
@@ -18,6 +19,7 @@ export default function Product() {
             </Typography>
           </Stack>
           <ImageGallery />
+          <Stamps />
         </Stack>
       </Stack>
     </Stack>
