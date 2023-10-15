@@ -31,6 +31,13 @@ export default function Product() {
               Em até <strong>5x sem juros de R$ 119,80</strong>
             </Typography>
           </Stack>
+          <Stack>
+            <Typography>
+              O Redmi Note 7 é um smartphone Android de bom nível, ótimo para
+              fotos. Tem uma enorme tela Touchscreen de 6.3 polegadas com uma
+              resolução de 2340x1080 pixel.
+            </Typography>
+          </Stack>
         </Stack>
       </Stack>
     </Stack>
