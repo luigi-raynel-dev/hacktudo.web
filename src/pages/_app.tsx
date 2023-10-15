@@ -11,7 +11,7 @@ export default function MyApp(props: MyAppProps) {
     <>
       <Head>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
-        <title>{process.env.NEXT_PUBLIC_APP_NAME}</title>
+        <title>Hackatudo OLX 2023</title>
       </Head>
       <Component {...pageProps} />
     </>
