@@ -20,6 +20,17 @@ export default function Product() {
           </Stack>
           <ImageGallery />
           <Stamps />
+          <Stack gap={1}>
+            <Typography className="line-through" color="#3c4453" fontSize={14}>
+              R$ 639
+            </Typography>
+            <Typography variant="h2" fontSize={24}>
+              R$ 599
+            </Typography>
+            <Typography fontSize={14}>
+              Em até <strong>5x sem juros de R$ 119,80</strong>
+            </Typography>
+          </Stack>
         </Stack>
       </Stack>
     </Stack>
