@@ -1,8 +1,9 @@
 import React from 'react'
-import { Chip, Stack, Typography } from '@mui/material'
+import { Stack, Typography } from '@mui/material'
 import Header from '../components/layout/Header'
 import ImageGallery from '../components/product/ImageGallery'
 import Stamps from '../components/product/Stamps'
+import ActionButtons from '../components/product/ActionButtons'
 
 export default function Product() {
   return (
@@ -38,6 +39,7 @@ export default function Product() {
               resolução de 2340x1080 pixel.
             </Typography>
           </Stack>
+          <ActionButtons />
         </Stack>
       </Stack>
     </Stack>
