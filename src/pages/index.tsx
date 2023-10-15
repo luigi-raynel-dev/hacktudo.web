@@ -126,6 +126,33 @@ export default function Product() {
               </Stack>
             </Stack>
           </Stack>
+          <Stack gap={2}>
+            <Typography fontWeight="bold" variant="h3" fontSize={20}>
+              Localização
+            </Typography>
+            <Stack gap={2}>
+              <Stack direction="row" justifyContent="space-between">
+                <Stack>
+                  <Typography fontSize={14} color="#3c4453">
+                    CEP
+                  </Typography>
+                  <Typography>72638721</Typography>
+                </Stack>
+                <Stack>
+                  <Typography fontSize={14} color="#3c4453">
+                    Município
+                  </Typography>
+                  <Typography>Guaratinguetá</Typography>
+                </Stack>
+                <Stack>
+                  <Typography fontSize={14} color="#3c4453">
+                    Bairro
+                  </Typography>
+                  <Typography>Vila Paraíba</Typography>
+                </Stack>
+              </Stack>
+            </Stack>
+          </Stack>
         </Stack>
       </Stack>
     </Stack>
