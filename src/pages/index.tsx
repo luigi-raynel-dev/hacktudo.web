@@ -1,5 +1,5 @@
 import React from 'react'
-import { Stack, Typography } from '@mui/material'
+import { Card, CardContent, Stack, Typography } from '@mui/material'
 import Header from '../components/layout/Header'
 import ImageGallery from '../components/product/ImageGallery'
 import Stamps from '../components/product/Stamps'
@@ -9,6 +9,7 @@ import { RiStackLine } from 'react-icons/ri'
 import { AiOutlineStar } from 'react-icons/ai'
 import { BsBox } from 'react-icons/bs'
 import { LiaPaintRollerSolid } from 'react-icons/lia'
+import InfoProduct from '../components/product/InfoProduct'
 
 export default function Product() {
   return (
@@ -37,12 +38,17 @@ export default function Product() {
               Em até <strong>5x sem juros de R$ 119,80</strong>
             </Typography>
           </Stack>
-          <Stack>
+          <Stack gap={3}>
             <Typography>
-              O Redmi Note 7 é um smartphone Android de bom nível, ótimo para
-              fotos. Tem uma enorme tela Touchscreen de 6.3 polegadas com uma
-              resolução de 2340x1080 pixel.
+              O Redmi Note 7 é um Android bom para fotos, 6.3 polegadas, bateria
+              e câmera boa.
             </Typography>
+            <InfoProduct
+              product={`
+              Titulo: Xiaomi Redmi Note 7 (48 Mpx) Dual SIM 64 GB neptune blue 4 gb ram\n Descrição: O Redmi Note 7 é um Android bom para fotos, 6.3 polegadas, bateria
+              e câmera boa.
+            `}
+            />
           </Stack>
           <ActionButtons />
           <Stack gap={2}>
